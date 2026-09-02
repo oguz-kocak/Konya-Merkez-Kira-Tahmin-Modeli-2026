@@ -1,0 +1,41 @@
+================================
+Konya Merkez Kira Tahmin Modeli Roadmap
+================================
+
+1. Tahmin edilecek hedef değişkeni belirle.
+2. Kullanılacak veri setini bul veya topla.
+3. Hedef değişken ve kullanılacak özellikleri (feature) listele.
+4. Ham veri dosyalarını tek bir klasörde topla.
+5. Birden fazla dosya varsa bunları tek bir DataFrame'de birleştir.
+6. Veri setinin genel yapısını incele (satır/sütun sayısı, veri tipleri).
+7. Gereksiz sütunları veri setinden çıkar.
+8. Karışık formatlı metin sütunlarını sayısal veya kategorik forma dönüştür.
+9. Kategorik sütunları uygun veri tipine çevir.
+10. Sütunlardaki tutarsız/hatalı değerleri tespit et.
+11. Tespit edilen tutarsız/hatalı değerleri düzelt.
+12. Temizlenmiş veriyi yeni bir dosya olarak kaydet.
+13. Sayısal sütunlar için çeyreklik (Q1, Q3) ve IQR değerlerini hesapla.
+14. IQR yöntemiyle aykırı değer sınırlarını belirle.
+15. Aykırı değerleri veri setinden çıkar.
+16. Aykırı değer temizliği öncesi ve sonrası veri boyutunu karşılaştır.
+17. Gerekli görülen sütunlarda elle ek filtreleme uygula.
+18. İstatistiksel olarak temizlenmiş veriyi ayrı bir dosya olarak kaydet.
+19. Sayısal ve kategorik özellikleri ayrı ayrı listele.
+20. Veriyi özellikler (X) ve hedef değişken (Y) olarak ayır.
+21. Veriyi eğitim ve test seti olarak ayır.
+22. Sayısal özellikler için ölçeklendirme adımı oluştur.
+23. Kategorik özellikler için kodlama (encoding) adımı oluştur.
+24. Ölçeklendirme ve kodlama adımlarını tek bir dönüştürücüde birleştir.
+25. Ön işleme adımını ve modeli tek bir pipeline'da birleştir.
+26. Modeli eğitim verisiyle eğit.
+27. Test verisi üzerinde tahmin yap.
+28. Modelin hata metriklerini (MSE, RMSE) hesapla.
+29. Modelin başarı skorunu (R^2) hesapla.
+30. Modelin öğrendiği katsayıları/özellik önemlerini incele.
+31. En az iki farklı model türünü eğitip sonuçlarını karşılaştır.
+32. Elle yeni bir örnek veri oluştur.
+33. Oluşturduğun örnek veri için model tahmini al.
+34. Model tahminini veri setindeki benzer gerçek kayıtlarla karşılaştır.
+35. Notebook'u baştan sona yeniden çalıştırıp hatasız çalıştığını doğrula.
+36. Her kod bölümüne kısa açıklama notu ekle.
+37. Projenin veri kaynağı, adımları ve sonuçlarını özetleyen bir metin yaz.
